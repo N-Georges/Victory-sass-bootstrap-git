@@ -24,6 +24,9 @@
         h4{
             font-weight: bold;
             margin-bottom: 20px;
+            @media screen and (max-width:1024px) {
+                text-align: center;
+            }
         }
         .call{
             background-color: #F3826F;

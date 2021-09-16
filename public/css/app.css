@@ -141,6 +141,11 @@ header .banner div .btn {
   font-weight: bold;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 1024px) {
+  .container .crd h4, .container .crd .h4 {
+    text-align: center;
+  }
+}
 .container .crd .call {
   background-color: #F3826F;
   margin-bottom: 20px;
